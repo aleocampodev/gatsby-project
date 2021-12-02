@@ -1,14 +1,30 @@
-import { Link } from "gatsby"
 import React from "react"
-import Header from "../components/Header/Header"
-import Footer from "../components/Footer/Footer"
+import Post from "../components/Post/Post"
+import PrimaryLayout from "../layouts/PrimaryLayout"
 
 export default function Home() {
   return (
-    <div>
-      <Header />
-      <div>This is where our content will go!</div>
-      <Footer />
-    </div>
+    <PrimaryLayout column="col-xs-6">
+      <Post
+        title="This is our first post"
+        excerpt="We are writing something to be displayed in our excerpt "
+      />
+      <Post
+        title="This is our first post"
+        excerpt="We are writing something to be displayed in our excerpt "
+      />
+      <Post
+        title="This is our first post"
+        excerpt="We are writing something to be displayed in our excerpt "
+      />
+      <Post
+        title="This is our first post"
+        excerpt="We are writing something to be displayed in our excerpt "
+      />
+      <Post
+        title="This is our first post"
+        excerpt="We are writing something to be displayed in our excerpt "
+      />
+    </PrimaryLayout>
   )
 }

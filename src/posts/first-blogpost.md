@@ -1,4 +1,5 @@
 ---
+id: 1
 title: "My First Blog Post"
 date: "2021-12-04"
 keywords: "firstKeyword, secondKeyword"
